@@ -1,29 +1,29 @@
 import logo from '../../logo.svg';
-import logo2 from '../../logo192.png';
+import CartWidget from './CartWidget';
 import './styles.css';
 
 const NavBar =() => {
     return(
         <div className="navbar-container">
             <div>
-                <img src={logo2} alt= "logo"/>
+                <img src={logo} alt= "logo"/>
             </div>
-            <div>
+            <nav>
                 <ul>
                     <li>
-                        <a href='#'>Home</a>
+                        <a href='/'>Home</a>
                     </li>
                     <li>
-                        <a href='#'>Contact</a>
+                        <a href='/'>Contact</a>
                     </li>
                     <li>
-                        <a href='#'>About</a>
+                        <a href='/'>About</a>
                     </li>
                     
                     
                 </ul>
-            </div>
-            <div>Login</div>
+            </nav>
+            <CartWidget numeroCarrito={2}/>
         </div>
     )
 }
