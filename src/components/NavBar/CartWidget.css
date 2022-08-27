@@ -1,4 +1,4 @@
-banner{
+#banner{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -6,6 +6,6 @@ banner{
     align-content: center;
 }
 
-img{
+#banner img{
     height: 76px;
 }
