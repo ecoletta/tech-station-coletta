@@ -1,7 +1,7 @@
 import './ItemCount.css';
 import { useState } from 'react';
 
-const ItemCount = ({stock, initial, onAdd}) => {
+export const ItemCount = ({stock, initial, onAdd}) => {
     const [contador, setContador] = useState(initial);
     const suma = () => {
         if (contador < stock){
@@ -13,16 +13,13 @@ const ItemCount = ({stock, initial, onAdd}) => {
     };
 
   return (
-    <>
         <div id='ItemCount'>
             <button onClick={resta}>-</button>
             <h1>{contador}</h1>
             <button onClick={suma}>+</button>
+
+            <button onClick={()=>console.log(contador)}>Agregar al Carrito</button>
         </div>
-        <div id='ItemCount'>
-            <button onClick={onAdd(contador)}>Agregar al Carrito</button>
-        </div>
-    </>
   )
 }
 
