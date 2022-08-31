@@ -6,3 +6,21 @@ h1{
     justify-content: center;
     margin: 0;
 }
+
+div{
+    background-color: #282c34;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+p{
+    color: white;
+}
+
+.itemImage{
+    text-align: center;
+    width:auto;
+}
