@@ -16,14 +16,12 @@ const ItemListContainer = ({greeting}) => {
   useEffect(() =>{
     getData.then((result) =>{
       setItem(result);
-      //Muestro los datos obtenidos desde data que cargue en item
-      console.log(result);
     },[])
   });
 
   return (
     <>{
-      items.length > 0 ? (<ItemList itemList={items} />) : (<div>Cargando...</div>)
+      items.length > 0 ? (<ItemList itemList={items} />) : (<h1>Cargando lista...</h1>)
     }</>
   )
 }

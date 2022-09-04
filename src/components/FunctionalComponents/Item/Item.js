@@ -1,14 +1,15 @@
 
-const Item = ({id, name, description, price, image, stock}) =>{
+const Item = ({producto}) =>{
+    //Envio directamente el producto entero
     return (
         <div>
-            <h1>{name}</h1>
-            <img className="itemImage" src={image} alt="imagen" />
-            <p>{description}</p>
-            <p>{price}</p>
-            <p>Stock disponible: {stock}</p>
-            <br></br>
-        </div>
+            <h1>{producto.name}</h1>
+            <img className="itemImage" src={producto.image} alt="imagen" />
+            <p>{producto.description}</p>
+            <p>{producto.price}</p>
+            <p>Stock disponible: {producto.stock}</p>
+            <br></br> 
+    </div>
     )
 }
 
