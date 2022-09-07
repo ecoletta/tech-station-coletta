@@ -1,0 +1,9 @@
+#ItemCount{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content:space-around;
+    background-color: #282c34;
+    width: 100%;
+}
+

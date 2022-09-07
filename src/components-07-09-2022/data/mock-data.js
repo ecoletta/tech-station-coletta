@@ -1,26 +1,26 @@
 const data = [{
     id:1,
     name: 'Camisa Azul',
-    description: "Camisa Azul Adulto",
-    category: "camisas",
-    price: '150$',
+    description: "1- Camisa Azul Adulto",
+    category: "Camisa",
+    price: '100$',
     image: 'https://picsum.photos/200/300',
-    stock:15
+    stock:10
 },
 {
     id:2,
     name: 'Camisa Roja',
-    description: "Camisa Roja Adulto",
-    category: "camisas",
-    price: '1300$',
+    description: "2- Camisa Roja Adulto",
+    category: "Camisa",
+    price: '100$',
     image: 'https://picsum.photos/200/300',
-    stock:5
+    stock:10
 },
 {
     id:3,
     name: 'Pantalon Verde',
-    description: "Pantalon verde niño",
-    category: "pantalon",
+    description: "3- Pantalon verde niño",
+    category: "Pantalon",
     price: '300$',
     image: 'https://picsum.photos/200/300',
     stock:10
@@ -28,35 +28,35 @@ const data = [{
 {
     id:4,
     name: 'Zapatos marrones',
-    description: "Zapatos marrones",
-    category: "calzados",
-    price: '480$',
+    description: "4- Zapatos marrones",
+    category: "Calzado",
+    price: '400$',
     image: 'https://picsum.photos/200/300',
-    stock:150
+    stock:10
 },
 {
     id:5,
     name: 'Zapatos negros',
-    description: "Zapatos negros",
-    category: "calzados",
-    price: '440$',
+    description: "5- Zapatos negros",
+    category: "Calzado",
+    price: '400$',
     image: 'https://picsum.photos/200/300',
     stock:10
 },
 {
     id:6,
     name: 'Zapatos marrones',
-    description: "Zapatos marrones",
-    category: "calzados",
-    price: '702$',
+    description: "6- Zapatos marrones",
+    category: "Calzado",
+    price: '400$',
     image: 'https://picsum.photos/200/300',
-    stock:18
+    stock:10
 },
 {
     id:7,
     name: 'Zapatos rojos',
-    description: "Zapatos rojos",
-    category: "calzados",
+    description: "7- Zapatos rojos",
+    category: "Calzado",
     price: '400$',
     image: 'https://picsum.photos/200/300',
     stock:10
@@ -64,8 +64,8 @@ const data = [{
 {
     id:8,
     name: 'Gorra negra',
-    description: "Zapatos negra re piola",
-    category: "accesorios",
+    description: "8- Zapatos negra re piola",
+    category: "Accesorios",
     price: '400$',
     image: 'https://picsum.photos/200/300',
     stock:10
@@ -73,8 +73,8 @@ const data = [{
 {
     id:9,
     name: 'Gorra Azul',
-    description: "Gorra Azul cool",
-    category: "accesorios",
+    description: "9- Gorra Azul cool",
+    category: "Accesorios",
     price: '400$',
     image: 'https://picsum.photos/200/300',
     stock:10
@@ -82,8 +82,8 @@ const data = [{
 {
     id:10,
     name: 'Gorra Naranja',
-    description: "Gorra horrible mal",
-    category: "accesorios",
+    description: "10- Gorra horrible mal",
+    category: "Accesorios",
     price: '400$',
     image: 'https://picsum.photos/200/300',
     stock:10

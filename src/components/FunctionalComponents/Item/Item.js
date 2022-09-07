@@ -1,14 +1,17 @@
+import {Link} from 'react-router-dom'
 
 const Item = ({producto}) =>{
     //Envio directamente el producto entero
     return (
         <div>
-            <h1>{producto.name}</h1>
-            <img className="itemImage" src={producto.image} alt="imagen" />
-            <p>{producto.description}</p>
-            <p>{producto.price}</p>
-            <p>Stock disponible: {producto.stock}</p>
+            <h3>{producto.name}</h3>
             <br></br> 
+            <img className="itemImage" src={producto.image} alt="imagen" />
+            <p>Precio: {producto.price}</p>
+            <br></br> 
+            <Link  to={`/item/${producto.id}`}>
+                <button className="boton-ver">Ver detalle...</button>
+            </Link>
     </div>
     )
 }

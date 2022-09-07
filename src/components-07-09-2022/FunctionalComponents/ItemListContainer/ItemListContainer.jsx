@@ -2,11 +2,9 @@ import './styles.css';
 import data from '../../data/mock-data';
 import { useState, useEffect } from 'react';
 import ItemList from '../ItemList/ItemList';
-import {useParams} from 'react-router-dom';
 
 
-const ItemListContainer = () => {
-  const {categoryId} = useParams();
+const ItemListContainer = ({greeting}) => {
   const [items, setItem] = useState([]);
 
   const getData = new Promise((resolve, reject) => {
@@ -17,23 +15,14 @@ const ItemListContainer = () => {
 
   useEffect(() =>{
     getData.then((result) =>{
-      if(categoryId){
-        const newProducts = result.filter(item => item.category === categoryId);
-        setItem(newProducts);
-      }else{
-        setItem(result);
-      }
-    },[categoryId])
+      setItem(result);
+    },[])
   });
 
   return (
-    <>
-    {/*Se agrega esta linea para identifiar que se invoca a ItemListContainer en el navegador*/}
-    <h1>---ItemListContainer---</h1>
-    {
+    <>{
       items.length > 0 ? (<ItemList itemList={items} />) : (<h1>Cargando lista...</h1>)
-    }
-    </>
+    }</>
   )
 }
 
