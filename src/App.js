@@ -3,7 +3,7 @@ import NavBar from './components/NavBar/NavBar';
 import ItemListContainer from './components/FunctionalComponents/ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './components/FunctionalComponents/ItemDetailContainer/ItemDetailContainer';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import ContactoPage from './components/Paginas/ContactoPage';
+import ContactoPage from './components/Paginas/Contacto/ContactoPage';
 
 
 function App() {
