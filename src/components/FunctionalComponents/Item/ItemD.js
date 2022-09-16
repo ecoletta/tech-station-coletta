@@ -11,7 +11,7 @@ const Item = ({producto}) =>{
             <br></br> 
                 <p>Descripcion: {producto.description}</p>
                 <p>Categoria: {producto.category}</p>
-                <p>Precio: {producto.price}</p>
+                <p>Precio: {producto.price}$</p>
                 <p>Stock disponible: {producto.stock}</p>
             </div>
         </div>

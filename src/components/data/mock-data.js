@@ -3,7 +3,7 @@ const data = [{
     name: 'Camisa Azul',
     description: "Camisa Azul Adulto",
     category: "camisas",
-    price: '150$',
+    price: 150,
     image: 'https://picsum.photos/200/300',
     stock:15
 },
@@ -12,7 +12,7 @@ const data = [{
     name: 'Camisa Roja',
     description: "Camisa Roja Adulto",
     category: "camisas",
-    price: '1300$',
+    price: 1300,
     image: 'https://picsum.photos/200/300',
     stock:5
 },
@@ -21,7 +21,7 @@ const data = [{
     name: 'Pantalon Verde',
     description: "Pantalon verde niño",
     category: "pantalon",
-    price: '300$',
+    price: 300,
     image: 'https://picsum.photos/200/300',
     stock:10
 },
@@ -30,7 +30,7 @@ const data = [{
     name: 'Zapatos marrones',
     description: "Zapatos marrones",
     category: "calzados",
-    price: '480$',
+    price: 480,
     image: 'https://picsum.photos/200/300',
     stock:150
 },
@@ -39,7 +39,7 @@ const data = [{
     name: 'Zapatos negros',
     description: "Zapatos negros",
     category: "calzados",
-    price: '440$',
+    price: 440,
     image: 'https://picsum.photos/200/300',
     stock:10
 },
@@ -48,7 +48,7 @@ const data = [{
     name: 'Zapatos marrones',
     description: "Zapatos marrones",
     category: "calzados",
-    price: '702$',
+    price: 702,
     image: 'https://picsum.photos/200/300',
     stock:18
 },
@@ -57,7 +57,7 @@ const data = [{
     name: 'Zapatos rojos',
     description: "Zapatos rojos",
     category: "calzados",
-    price: '400$',
+    price: 400,
     image: 'https://picsum.photos/200/300',
     stock:10
 },
@@ -66,7 +66,7 @@ const data = [{
     name: 'Gorra negra',
     description: "Zapatos negra re piola",
     category: "accesorios",
-    price: '400$',
+    price: 400,
     image: 'https://picsum.photos/200/300',
     stock:10
 },
@@ -75,7 +75,7 @@ const data = [{
     name: 'Gorra Azul',
     description: "Gorra Azul cool",
     category: "accesorios",
-    price: '400$',
+    price: 400,
     image: 'https://picsum.photos/200/300',
     stock:10
 },
@@ -84,7 +84,7 @@ const data = [{
     name: 'Gorra Naranja',
     description: "Gorra horrible mal",
     category: "accesorios",
-    price: '400$',
+    price: 400,
     image: 'https://picsum.photos/200/300',
     stock:10
 }

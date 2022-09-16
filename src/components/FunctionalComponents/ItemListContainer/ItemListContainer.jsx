@@ -28,8 +28,6 @@ const ItemListContainer = () => {
 
   return (
     <>
-    {/*Se agrega esta linea para identifiar que se invoca a ItemListContainer en el navegador*/}
-    <h1>---ItemListContainer---</h1>
     {
       items.length > 0 ? (<ItemList itemList={items} />) : (<h1>Cargando lista...</h1>)
     }

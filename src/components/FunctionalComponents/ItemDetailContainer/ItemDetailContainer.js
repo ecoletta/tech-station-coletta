@@ -24,9 +24,7 @@ useEffect(() => {
 },[productId])
 return(
     <>
-    {/*Se agrega esta linea para identifiar que se invoca a ItemDetailContainer en el navegador*/}
-    <h1>---ItemDetailContainer---</h1>
-    {
+   {
     <ItemDetail itemDetail={item} />
     }</>
   )
