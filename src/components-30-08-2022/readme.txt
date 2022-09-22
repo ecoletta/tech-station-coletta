@@ -1,1 +1,0 @@
-Esto es un backup de la carpeta components realizado el 30-08-2022

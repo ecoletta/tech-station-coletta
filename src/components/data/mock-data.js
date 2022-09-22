@@ -28,7 +28,7 @@ const data = [{
 {
     id:4,
     name: 'Zapatos marrones',
-    description: "Zapatos marrones",
+    description: "Zapatos marrones adulto",
     category: "calzados",
     price: 480,
     image: 'https://picsum.photos/200/300',
@@ -45,12 +45,12 @@ const data = [{
 },
 {
     id:6,
-    name: 'Zapatos marrones',
-    description: "Zapatos marrones",
+    name: 'Zapatos dorados',
+    description: "Zapatos dorados adulto",
     category: "calzados",
-    price: 702,
+    price: 3000,
     image: 'https://picsum.photos/200/300',
-    stock:18
+    stock:15
 },
 {
     id:7,
