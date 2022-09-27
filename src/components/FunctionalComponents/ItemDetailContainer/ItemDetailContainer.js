@@ -11,9 +11,7 @@ const ItemDetailContainer = () => {
 
     useEffect(() => {
         const getProducto = async() => {
-            //Se crea la referencia del producto que quiero obtener de firebase
             const queryRef = doc(db, "items", productId);
-            //Se hace el request a firebase del producto
             const response = await getDoc(queryRef);
             const newItem = {
                 id: response.id,

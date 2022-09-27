@@ -21,9 +21,8 @@ const sendOrder = (event) => {
     item: productCartList,
     total: getTotalPrice()
   }
-  //crear la referencia donde se va a guardar el documento
+
   const queryRef = collection(db, "orders");
-  //Crear el documento en firebase, muestro la respuesta y obtengo el id de documento de firebase
   addDoc(queryRef, order).then(response => setIdOrder(response.id));
   clear();
 }

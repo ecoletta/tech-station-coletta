@@ -1,7 +1,6 @@
 import {Link} from 'react-router-dom'
 
 const Item = ({producto}) =>{
-    //Envio directamente el producto entero
     return (
         <div>
             <h3>{producto.name}</h3>

@@ -1,7 +1,6 @@
 //Componente para ItemDetails
 
 const Item = ({producto}) =>{
-    //Envio directamente el producto entero
     return (
         <div style={{width:"100%"}} className="'detail-container">
             <h1 style={{width:"100%"}}>{producto.name}</h1>
