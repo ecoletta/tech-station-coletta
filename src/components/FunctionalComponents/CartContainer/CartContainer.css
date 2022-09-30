@@ -1,8 +1,26 @@
 .producto-cart{
-    display: block;
+    display: flex;
+    border: solid 2px white;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 15px;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content:space-between;
   }
+
 
 .alerta{
   background-color: green;
   font-weight: bold;
+}
+
+label{
+  color: white;
+  margin-left: 10px;
+}
+
+.boton-eliminar{
+  margin: 0;
+  padding: 0;
 }

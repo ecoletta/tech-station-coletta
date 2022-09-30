@@ -16,7 +16,7 @@ const ItemDetail = ({itemDetail}) => {
   return (
     <div>
       <Item producto={itemDetail} key={itemDetail.id}/>
-      <ItemCount stock={10} initial={1} onAdd={onAdd}/>
+      <ItemCount stock={itemDetail.stock} initial={1} onAdd={onAdd}/>
     {
       contador > 0 && 
       <Link to={"/Cart"}>

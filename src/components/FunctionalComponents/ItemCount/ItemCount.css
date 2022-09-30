@@ -7,3 +7,8 @@
     width: 100%;
 }
 
+.boton-operador {
+    width: auto;
+    font-size: large;
+    border-radius: 5px;
+}

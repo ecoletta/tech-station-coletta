@@ -44,8 +44,8 @@ const sendOrder = (event) => {
             {productCartList.map(item=>(
               <div className='producto-cart' key={item.id}>
                 <>
-                  <p>Producto: {item.name} - Cantidad: {item.quantity} - Precio: {item.quantityPrice}$</p>
-                  <button onClick={()=>removeItem(item.id)}>Eliminar</button>
+                  <p>Producto: {item.name} - Cantidad: {item.quantity} - Precio: {item.quantityPrice}$  </p>
+                  <button className='boton-eliminar' onClick={()=>removeItem(item.id)}>Eliminar</button>
                 </>
               </div>
             ))}
@@ -53,7 +53,7 @@ const sendOrder = (event) => {
             <button onClick={()=>clear()}>Vaciar Carrito</button>
             <p>Precio Total: {getTotalPrice()}$</p>
             <form onSubmit={sendOrder}>
-              <label>Nombre: </label>
+              <label>Nombre:  </label>
               <input type="text" />
               <label>Telefono: </label>
               <input type="text" />
