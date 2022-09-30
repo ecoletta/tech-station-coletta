@@ -28,6 +28,11 @@ Tech-station-app utiliza las siguientes tecnologias:
 - [Firebase] - Plataforma de desarrollo de apps de Google
 - [git] - Platforma de desarrollo
 
+## Video Demo de tech-station-app (3 min)
+
+Pueden ver un video explicativo de la aplicacion en:
+- [Demo] 
+
 ## Instalacion 
 
 Tech-station-app requiere [Node.js](https://nodejs.org/)
@@ -55,6 +60,7 @@ MIT
    [git]: <https://github.com/>
    [Ezequiel Coletta]: <https://www.linkedin.com/in/elcoletta/>
    [Fredy Alexander Chaparro Castro]: <https://www.linkedin.com/in/fredychaparro/>
+   [Demo]: <https://www.loom.com/share/ca6eb70441134be1ad2fc355b05d2de3>
    
    ## Colaboradores
    
